@@ -2,7 +2,7 @@
 
 > 用 **DSH 插件 `dsh-onebot-qq` + NapCat** 把 DeepSeek Harness 接进 QQ，全程 Windows、纯本地、不花钱、不用公网服务器。
 > 这份文档是自己踩完坑后整理的，按顺序做基本能一次通。
-> 文中所有路径都用 `<尖括号>` 占位，你按自己的实际情况替换即可。
+> 文中所有路径都用 `<尖括号>` 占位，按自己的实际情况替换即可。
 > 深度排障记录见 [docs/troubleshooting.md](docs/troubleshooting.md)。
 
 **目录**
@@ -529,4 +529,4 @@ dsh plugin --profile <profile> remove dsh-onebot-qq
 
 ---
 
-*照着做完还卡住的话，把 `qq-trace.jsonl` 最后 5 行和 `Get-ScheduledTaskInfo -TaskName NapCatQQ` 的输出发给我，基本就能定位。*
+*照着做完还卡住的话，把 `qq-trace.jsonl` 最后 5 行和 `Get-ScheduledTaskInfo -TaskName NapCatQQ` 的输出发给dsh，基本就能定位。*
