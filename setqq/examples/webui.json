@@ -1,0 +1,13 @@
+{
+  "_说明": "NapCat 管理面板配置，放在 <NapCat目录>\\config\\webui.json",
+  "_访问地址": "http://127.0.0.1:6099/webui?token=<WebUI密码>，token 必须带在 URL 里",
+  "host": "127.0.0.1",
+  "port": 6099,
+  "token": "<WebUI密码>",
+  "loginRate": 20,
+  "autoLoginAccount": "",
+  "disableWebUI": false,
+  "accessControlMode": "none",
+  "ipWhitelist": [],
+  "ipBlacklist": []
+}
